@@ -1,82 +1,121 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: "Hi! I'm Bojan!",
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Bojan Matić',
+  twitterUsername: 'moljac024',
+  githubUsername: 'moljac024',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Full-stack engineer. Cares about clean code and utilizing the best design patterns. Sees coding
+  and systems design as a form of art. Always in pursuit of new knowledge and eager to learn new
+  technologies.`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
-    },
-    {
-      name: 'CSS',
-      level: 60
-    },
-    {
       name: 'Javascript',
-      level: 50
+      level: 90,
     },
     {
-      name: 'NodeJs',
-      level: 40
+      name: 'Typescript',
+      level: 90,
     },
     {
       name: 'React',
-      level: 60
+      level: 90,
     },
     {
-      name: 'Git',
-      level: 70
-    }
+      name: 'Elixir',
+      level: 60,
+    },
+    {
+      name: 'Python',
+      level: 60,
+    },
+    {
+      name: 'PHP',
+      level: 50,
+    },
+    {
+      name: 'CSS',
+      level: 30,
+    },
   ],
   jobs: [
     {
-      company: "Lendico",
+      company: 'Citizenshipper',
       begin: {
-        month: 'apr',
-        year: '2018'
+        month: 'mar',
+        year: '2018',
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      occupation: 'Software Engineer',
+      description: `Working on React.js web and mobile applications, backend and devops.`,
     },
-    /* ... */
+    {
+      company: 'Performance Technologies',
+      begin: {
+        month: 'jan',
+        year: '2018',
+      },
+      duration: null,
+      occupation: 'Software Engineer',
+      description: `Training people in React.js and functional programming. Writing applications in node and typescript.`,
+    },
+    {
+      company: 'Guidefitter',
+      begin: {
+        month: 'may',
+        year: '2016',
+      },
+      duration: '1 year and 8 months',
+      occupation: 'Frontend Team Lead',
+      description: `Development of front-end of admin backoffice and social network, built as a single-page web
+        application. Technologies used include Webpack, Babel, ReactJS, Redux etc.`,
+    },
+    {
+      company: 'Knip',
+      begin: {
+        month: 'oct',
+        year: '2015',
+      },
+      duration: '8 months',
+      occupation: 'Frontend Team Lead',
+      description: `Development of front-end of in-house CRM system, built as a single-page web application using JavaScript ES6,
+        ReactJS.`,
+    },
+    {
+      company: 'Tradecore',
+      begin: {
+        month: 'feb',
+        year: '2015',
+      },
+      duration: '8 months',
+      occupation: 'Backend Developer',
+      description: `Development of backend services for trading systems. Technologies used include Django, Redis, RabbitMQ,
+      PostgreSQL, MongoDB. Primary responsibility included writing the API in Python/Django, but also worked on frontend
+      code built with AngularJS and on Ansible roles for server automation.`,
+    },
+    {
+      company: 'LIS',
+      begin: {
+        month: 'may',
+        year: '2013',
+      },
+      duration: '2 years',
+      occupation: 'Software Engineer',
+      description: `Implementation and deployment of laboratory information system for health care institutions. Developed with Pyramid,
+      SQLAlchemy, AngularJS, Bootstrap. Primary responsibilities include working on frontend code in AngularJS as well
+      as building the backend API in Python and developing the system deployment and server provisioning automation in
+      Ansible.`,
+    },
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: 'https://twitter.com/moljac024',
+    linkedin: 'https://www.linkedin.com/in/bojan.matić',
+    github: 'https://github.com/moljac024',
+    email: 'matic.bojan@gmail.com',
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://moljac024.github.io/cv',
+  pathPrefix: '/cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-131359385-1',
   background_color: '#ffffff',
@@ -85,8 +124,8 @@ module.exports = {
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
     {
-      label: 'Francisco Santos',
+      label: 'Bojan Matić',
       url: '/',
-    }
-  ]
+    },
+  ],
 }
