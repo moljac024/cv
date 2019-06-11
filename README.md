@@ -6,5 +6,5 @@
   </a>
 </p>
 <h1 align="center">
-  Bojan's homepage (using Gatsby's CV starter)
+  Bojan's homepage
 </h1>
