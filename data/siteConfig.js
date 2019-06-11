@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "Hi! I'm Bojan!",
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteDescription: `Curriculum vitae of Bojan Matic`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Bojan Matić',
   twitterUsername: 'moljac024',
@@ -114,8 +114,8 @@ module.exports = {
     github: 'https://github.com/moljac024',
     email: 'matic.bojan@gmail.com',
   },
-  siteUrl: 'https://moljac024.github.io/cv',
-  pathPrefix: '/cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://moljac024.com',
+  pathPrefix: '/', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-131359385-1',
   background_color: '#ffffff',
