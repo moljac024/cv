@@ -127,5 +127,10 @@ module.exports = {
       label: 'Bojan Matić',
       url: '/',
     },
+    {
+      label: 'Blog',
+      url: 'https://moljac024.com',
+      external: true,
+    },
   ],
 }
