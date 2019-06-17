@@ -6,5 +6,5 @@
   </a>
 </p>
 <h1 align="center">
-  Bojan's homepage
+  Bojan's CV at https://cv.moljac024.com
 </h1>
