@@ -1,8 +1,8 @@
 {
-  "name": "moljac024-homepage",
+  "name": "moljac024-cv",
   "private": true,
-  "description": "moljac024.com homepage",
-  "version": "0.0.1",
+  "description": "Bojan's online CV",
+  "version": "1.0.0",
   "author": "Bojan Matic <matic.bojan@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "1.10.0",
@@ -38,9 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moljac024/homepage"
+    "url": "https://github.com/moljac024/cv"
   },
   "bugs": {
-    "url": "https://github.com/moljac024/homepage/issues"
+    "url": "https://github.com/moljac024/cv/issues"
   }
 }
