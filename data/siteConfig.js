@@ -110,7 +110,7 @@ module.exports = {
   ],
   social: {
     twitter: 'https://twitter.com/moljac024',
-    linkedin: 'https://www.linkedin.com/in/bojan.matić',
+    linkedin: 'https://www.linkedin.com/in/moljac024',
     github: 'https://github.com/moljac024',
     email: 'matic.bojan@gmail.com',
   },
